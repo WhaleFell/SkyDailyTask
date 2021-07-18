@@ -1,0 +1,27 @@
+2021-07-18 23:11:49,861 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f30f75849ee20001575aaf/插入成功！
+2021-07-18 23:11:49,864 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:134] - INFO: 2021-07-18 光遇小助理每日攻略 保存成功!
+2021-07-18 23:11:54,569 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
+2021-07-18 23:11:58,916 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f1bed5c3e1e500016bebd9/插入成功！
+2021-07-18 23:11:58,917 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:134] - INFO: 2021-07-18 光遇小助手每日攻略 保存成功!
+2021-07-18 23:12:05,474 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
+2021-07-18 23:12:10,112 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f060823408360001178095/插入成功！
+2021-07-18 23:12:10,112 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:134] - INFO: 2021-07-18 光遇小助理每日攻略[4932] 保存成功!
+2021-07-18 23:12:15,900 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
+2021-07-18 23:12:17,709 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60efb67e4ebd8e0b6bfac6ca/插入成功！
+2021-07-18 23:12:17,710 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:134] - INFO: 2021-07-18 光遇7.15复刻攻略 保存成功!
+2021-07-18 23:12:21,876 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
+2021-07-18 23:12:26,180 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60ef0e7912b80d4c16bf99ad/插入成功！
+2021-07-18 23:12:26,180 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:134] - INFO: 2021-07-18 光遇小助理每日攻略[345] 保存成功!
+2021-07-18 23:12:31,610 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
+2021-07-18 23:12:37,674 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60ee9cf8f7feba7b5344fc72/插入成功！
+2021-07-18 23:12:37,675 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:134] - INFO: 2021-07-18 光遇账号找回攻略 保存成功!
+2021-07-18 23:12:50,379 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
+2021-07-18 23:12:53,043 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60edc085f7feba4b4f90f6a7/插入成功！
+2021-07-18 23:12:53,043 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:134] - INFO: 2021-07-18 光遇小助理每日攻略[3066] 保存成功!
+2021-07-18 23:12:56,321 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
+2021-07-18 23:12:57,758 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60ec6b8f66636f651fb2ef1b/插入成功！
+2021-07-18 23:12:57,758 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:134] - INFO: 2021-07-18 光遇每日任务攻略 保存成功!
+2021-07-18 23:13:01,394 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
+2021-07-18 23:13:03,189 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60eb1c3166636f651fadaef2/插入成功！
+2021-07-18 23:13:03,190 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:134] - INFO: 2021-07-18 光遇每日任务攻略[7766] 保存成功!
+2021-07-18 23:13:07,446 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
