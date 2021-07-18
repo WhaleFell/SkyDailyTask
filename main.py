@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-18 11:18:44
-LastEditTime: 2021-07-18 22:54:31
+LastEditTime: 2021-07-18 23:30:49
 Description: 主运行模块
 '''
 from types import MemberDescriptorType
@@ -58,20 +58,31 @@ def main():
         urls = spider.getIndex()
         if urls:
             break
-
+    
+    urls.reverse() # 列表倒叙,从旧到新
     for url in urls:
+        # 解析单个文章
         # 重试
         for i in range(11):
             title, html = spider.parse(url)
             if html:
                 break
+            
         # 处理
         html, md = spider.parseArticle(html)
+        
+        # 写自述文件
+        with open("README.md", "w", encoding="utf8") as mm:
+            md = f"# {title}\n{md}"  # 为md文件加标题
+            mm.write(md)
+
         # 入库
         if writeSQL(title, url, html):
             # 写入文件
-            md_path,htmlAdd = spider.writeDoc(md, html, title)
+            md,md_path,htmlAdd = spider.writeDoc(md, html, title)
             mail.sendEmail(htmlAdd, fileList=[md_path, "run.log"])
+
+    
 
 
 if __name__ == "__main__":

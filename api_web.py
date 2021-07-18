@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-15 22:17:41
-LastEditTime: 2021-07-18 23:19:37
+LastEditTime: 2021-07-18 23:25:30
 Description: 网易大神-光遇每日任务爬虫
 '''
 from log import log
@@ -125,14 +125,10 @@ class SkyTask(object):
         with open(os.path.join("markdown", "%s.md" % (file_name)), "w", encoding="utf8") as m:
             md = f"# {title}\n{md}"  # 为md文件加标题
             m.write(md)
-
-        # 写入自述文件,githuh上面好看。
-        with open("README.md", "w", encoding="utf8") as mm:
-            # md = f"# {title}\n{md}"  # 为md文件加标题
-            mm.write(md)
         
+
         log.logger.info(f"{file_name} 保存成功!")
-        return os.path.join("markdown", "%s.md" % (file_name)),html
+        return md, os.path.join("markdown", "%s.md" % (file_name)), html
 
     def parseArticle(self, htmlData):
         '''
