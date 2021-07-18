@@ -36,7 +36,7 @@ jobs:
            python-version: 3.7
 
       - name: '安装需求库'
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: '运行 Python 程序'
         run: 

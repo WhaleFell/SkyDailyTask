@@ -1,0 +1,4 @@
+requests==2.25.1
+zmail==0.2.8
+lxml==4.6.3
+html2text==2020.1.16
