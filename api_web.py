@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-15 22:17:41
-LastEditTime: 2021-07-18 23:00:41
+LastEditTime: 2021-07-18 23:19:37
 Description: 网易大神-光遇每日任务爬虫
 '''
 from log import log
@@ -128,7 +128,7 @@ class SkyTask(object):
 
         # 写入自述文件,githuh上面好看。
         with open("README.md", "w", encoding="utf8") as mm:
-            md = f"# {title}\n{md}"  # 为md文件加标题
+            # md = f"# {title}\n{md}"  # 为md文件加标题
             mm.write(md)
         
         log.logger.info(f"{file_name} 保存成功!")
