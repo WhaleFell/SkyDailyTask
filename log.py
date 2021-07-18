@@ -34,7 +34,7 @@ class Logger(object):
         fh.setFormatter(format_str)  # 设置文件里写入的格式
         self.logger.addHandler(fh)
 
-
+log = Logger('run.log', level='debug')
 if __name__ == '__main__':
     log = Logger('run.log', level='debug')
     log.logger.debug('详细信息，调试使用')

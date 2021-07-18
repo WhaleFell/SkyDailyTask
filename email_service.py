@@ -3,17 +3,16 @@
 '''
 Author: whalefall
 Date: 2021-07-16 22:12:17
-LastEditTime: 2021-07-17 23:28:19
+LastEditTime: 2021-07-18 22:46:02
 Description: 邮件发送模块
 '''
 from logging import log
 import zmail
 import configparser
-from log import Logger
+from log import log
 import os
 import time
 
-log = Logger('run.log', level='debug')
 
 
 def writeConfig():
@@ -63,7 +62,7 @@ class EmailService(object):
             # smtp_tls=self.smtp_tls,
         )
         if self.service.smtp_able():
-            log.logger.info("邮箱配置正确")
+            # log.logger.info("邮箱配置正确")
             return True
         else:
             log.logger.warning("邮箱配置异常")
@@ -73,7 +72,7 @@ class EmailService(object):
         '''发送html文件与markdown附件和日志文件'''
 
         # 判断状态
-        if not self.serviceStatus:
+        if not self.serviceStatus():
             return
 
         mail = {
@@ -81,16 +80,18 @@ class EmailService(object):
             'content_html': html,
             'attachments': fileList,
         }
+        try:
+            status = self.service.send_mail(self.sendTo, mail)
 
-        status = self.service.send_mail(self.sendTo, mail)
-
-        if status:
-            log.logger.info("邮件推送成功!")
-        else:
-            log.logger.warning("邮件推送失败!")
+            if status:
+                log.logger.info("邮件推送成功!")
+            else:
+                log.logger.warning("邮件推送失败!")
+        except Exception as e:
+            log.logger.warning(f"发信未知失败: {e}")
 
 
 if __name__ == "__main__":
     mail = EmailService()
-    mail.serviceStatus()
-    mail.sendEmail(open("test.html", "r", encoding="utf8").read(), ['test.md'])
+    # mail.serviceStatus()
+    mail.sendEmail("<h1>黄颖怡去那所高中了</h1>")
