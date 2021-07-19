@@ -288,3 +288,14 @@
 2021-07-20 00:26:21,902 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60f1bed5c3e1e500016bebd9/数据已存在
 2021-07-20 00:26:23,685 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60f30f75849ee20001575aaf/数据已存在
 2021-07-20 00:26:25,397 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60f452ddc3e1e500016db13c/数据已存在
+2021-07-20 02:21:19,225 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60edc085f7feba4b4f90f6a7/数据已存在
+2021-07-20 02:21:20,986 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60ee9cf8f7feba7b5344fc72/数据已存在
+2021-07-20 02:21:22,746 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60ef0e7912b80d4c16bf99ad/数据已存在
+2021-07-20 02:21:24,348 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60efb67e4ebd8e0b6bfac6ca/数据已存在
+2021-07-20 02:21:26,034 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60f060823408360001178095/数据已存在
+2021-07-20 02:21:27,717 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60f1bed5c3e1e500016bebd9/数据已存在
+2021-07-20 02:21:29,360 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60f30f75849ee20001575aaf/数据已存在
+2021-07-20 02:21:31,061 - main.py [line:41] - WARNING: https://m.ds.163.com/article/60f452ddc3e1e500016db13c/数据已存在
+2021-07-20 02:21:32,604 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f5ab5c849ee200017725bf/插入成功！
+2021-07-20 02:21:32,605 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:130] - INFO: 2021-07-20 光遇小助理每日攻略 保存成功!
+2021-07-20 02:21:38,642 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:87] - INFO: 邮件推送成功!
