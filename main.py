@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-18 11:18:44
-LastEditTime: 2021-07-18 23:30:49
+LastEditTime: 2021-07-20 17:12:26
 Description: 主运行模块
 '''
 from types import MemberDescriptorType
@@ -38,7 +38,7 @@ def writeSQL(title, url, html) -> bool:
         conn.commit()
 
     except sqlite3.IntegrityError:
-        log.logger.warning(f"{url}数据已存在")
+        # log.logger.warning(f"{url}数据已存在")
         return False
     except Exception as e:
         log.logger.critical(f"{url}其他错误: {e}")
@@ -50,6 +50,7 @@ def writeSQL(title, url, html) -> bool:
 
 def main():
     '''主运行函数'''
+    log.logger.info("爬取开始ing......")
     # 各种实例化
     mail = EmailService()
     spider = SkyTask()
@@ -58,8 +59,11 @@ def main():
         urls = spider.getIndex()
         if urls:
             break
-    
-    urls.reverse() # 列表倒叙,从旧到新
+
+    log.logger.info(f"共获取到{len(urls)}条链接.")
+
+    urls.reverse()  # 列表倒叙,从旧到新
+    count = 0
     for url in urls:
         # 解析单个文章
         # 重试
@@ -67,10 +71,10 @@ def main():
             title, html = spider.parse(url)
             if html:
                 break
-            
+
         # 处理
         html, md = spider.parseArticle(html)
-        
+
         # 写自述文件
         with open("README.md", "w", encoding="utf8") as mm:
             md = f"# {title}\n{md}"  # 为md文件加标题
@@ -78,11 +82,12 @@ def main():
 
         # 入库
         if writeSQL(title, url, html):
+            count += 1
             # 写入文件
-            md,md_path,htmlAdd = spider.writeDoc(md, html, title)
+            md, md_path, htmlAdd = spider.writeDoc(md, html, title)
             mail.sendEmail(htmlAdd, fileList=[md_path, "run.log"])
 
-    
+    log.logger.info(f"处理完成! 新数据条数:{count}")
 
 
 if __name__ == "__main__":
