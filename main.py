@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-18 11:18:44
-LastEditTime: 2021-07-20 17:12:26
+LastEditTime: 2021-07-22 01:20:58
 Description: 主运行模块
 '''
 from types import MemberDescriptorType
@@ -85,7 +85,7 @@ def main():
             count += 1
             # 写入文件
             md, md_path, htmlAdd = spider.writeDoc(md, html, title)
-            mail.sendEmail(htmlAdd, fileList=[md_path, "run.log"])
+            mail.send_emails(htmlAdd, fileList=[md_path, "run.log"]) # 支持多邮箱发送.
 
     log.logger.info(f"处理完成! 新数据条数:{count}")
 

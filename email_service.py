@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-16 22:12:17
-LastEditTime: 2021-07-18 22:46:02
+LastEditTime: 2021-07-22 01:20:19
 Description: 邮件发送模块
 '''
 from logging import log
@@ -12,7 +12,6 @@ import configparser
 from log import log
 import os
 import time
-
 
 
 def writeConfig():
@@ -45,7 +44,7 @@ class EmailService(object):
             self.smtp_port = cf.get("email", "smtp_port")
             self.smtp_ssl = cf.get("email", "smtp_ssl")
             # self.smtp_tls = cf.get("email", "smtp_tls")
-            self.sendTo = cf.get("sendTo", "address")
+            self.sendTo = cf.get("sendTo", "address")  # 支持多邮箱
             # self.service = None
         except Exception as e:
             log.logger.warning("读取配置文件时出现问题!请重新修改")
@@ -68,8 +67,8 @@ class EmailService(object):
             log.logger.warning("邮箱配置异常")
             return False
 
-    def sendEmail(self, html, fileList=[]):
-        '''发送html文件与markdown附件和日志文件'''
+    def sendEmail(self, sendTo, html, fileList=[]):
+        '''传入接收的邮箱,发送html文件与markdown附件和日志文件'''
 
         # 判断状态
         if not self.serviceStatus():
@@ -81,14 +80,22 @@ class EmailService(object):
             'attachments': fileList,
         }
         try:
-            status = self.service.send_mail(self.sendTo, mail)
+            status = self.service.send_mail(sendTo, mail)
 
             if status:
-                log.logger.info("邮件推送成功!")
+                log.logger.info(f"{sendTo}邮件推送成功!")
             else:
-                log.logger.warning("邮件推送失败!")
+                log.logger.warning(f"{sendTo}邮件推送失败!")
         except Exception as e:
-            log.logger.warning(f"发信未知失败: {e}")
+            log.logger.warning(f"{sendTo}发信未知失败: {e}")
+
+
+    def send_emails(self, html, fileList=[]):
+        '''处理多个邮箱'''
+        email_list = self.sendTo.split(",")
+        for emailID in email_list:
+            self.sendEmail(emailID, html, fileList)
+            time.sleep(5)
 
 
 if __name__ == "__main__":
