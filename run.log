@@ -1,0 +1,39 @@
+2021-07-22 10:17:53,445 - e:\coding\SkyDailyTask\main.py [line:53] - INFO: 爬取开始ing......
+2021-07-22 10:17:54,474 - e:\coding\SkyDailyTask\main.py [line:63] - INFO: 共获取到9条链接.
+2021-07-22 10:17:55,285 - e:\coding\SkyDailyTask\main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60efb67e4ebd8e0b6bfac6ca/插入成功！
+2021-07-22 10:17:55,289 - e:\coding\SkyDailyTask\api_web.py [line:137] - INFO: 2021-07-22 光遇7.15复刻攻略 保存成功!
+2021-07-22 10:17:57,793 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-07-22 10:18:04,021 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: 2113025188@qq.com邮件推送成功!
+2021-07-22 10:18:09,828 - e:\coding\SkyDailyTask\main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f060823408360001178095/插入成功！
+2021-07-22 10:18:09,831 - e:\coding\SkyDailyTask\api_web.py [line:137] - INFO: 2021-07-22 光遇小助理每日攻略 保存成功!
+2021-07-22 10:18:10,745 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-07-22 10:18:16,680 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: 2113025188@qq.com邮件推送成功!
+2021-07-22 10:18:22,524 - e:\coding\SkyDailyTask\main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f1bed5c3e1e500016bebd9/插入成功！
+2021-07-22 10:18:22,528 - e:\coding\SkyDailyTask\api_web.py [line:137] - INFO: 2021-07-22 光遇小助手每日攻略 保存成功!
+2021-07-22 10:18:23,510 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-07-22 10:18:29,424 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: 2113025188@qq.com邮件推送成功!
+2021-07-22 10:18:35,426 - e:\coding\SkyDailyTask\main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f30f75849ee20001575aaf/插入成功！
+2021-07-22 10:18:35,430 - e:\coding\SkyDailyTask\api_web.py [line:137] - INFO: 2021-07-22 光遇小助理每日攻略[1514] 保存成功!
+2021-07-22 10:18:36,373 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-07-22 10:18:42,402 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: 2113025188@qq.com邮件推送成功!
+2021-07-22 10:18:48,351 - e:\coding\SkyDailyTask\main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f452ddc3e1e500016db13c/插入成功！
+2021-07-22 10:18:48,354 - e:\coding\SkyDailyTask\api_web.py [line:137] - INFO: 2021-07-22 光遇小助理每日攻略[5036] 保存成功!
+2021-07-22 10:18:49,457 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-07-22 10:18:55,528 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: 2113025188@qq.com邮件推送成功!
+2021-07-22 10:19:01,333 - e:\coding\SkyDailyTask\main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f5ab5c849ee200017725bf/插入成功！
+2021-07-22 10:19:01,337 - e:\coding\SkyDailyTask\api_web.py [line:137] - INFO: 2021-07-22 光遇小助理每日攻略[6795] 保存成功!
+2021-07-22 10:19:02,347 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-07-22 10:19:08,276 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: 2113025188@qq.com邮件推送成功!
+2021-07-22 10:19:14,265 - e:\coding\SkyDailyTask\main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f6f837c5a3250001f58ec1/插入成功！
+2021-07-22 10:19:14,269 - e:\coding\SkyDailyTask\api_web.py [line:137] - INFO: 2021-07-22 光遇小王子季攻略 保存成功!
+2021-07-22 10:19:15,425 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-07-22 10:19:21,486 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: 2113025188@qq.com邮件推送成功!
+2021-07-22 10:19:27,344 - e:\coding\SkyDailyTask\main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f7050ac3e1e50001555d82/插入成功！
+2021-07-22 10:19:27,347 - e:\coding\SkyDailyTask\api_web.py [line:137] - INFO: 2021-07-22 光遇小助理每日攻略[1764] 保存成功!
+2021-07-22 10:19:29,091 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-07-22 10:19:34,995 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: 2113025188@qq.com邮件推送成功!
+2021-07-22 10:19:40,748 - e:\coding\SkyDailyTask\main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f851b3c5a3250001f6916d/插入成功！
+2021-07-22 10:19:40,752 - e:\coding\SkyDailyTask\api_web.py [line:137] - INFO: 2021-07-22 光遇小助理每日攻略[3519] 保存成功!
+2021-07-22 10:19:41,750 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-07-22 10:19:47,666 - e:\coding\SkyDailyTask\email_service.py [line:86] - INFO: 2113025188@qq.com邮件推送成功!
+2021-07-22 10:19:52,680 - e:\coding\SkyDailyTask\main.py [line:85] - INFO: 处理完成! 新数据条数:9
