@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-15 22:17:41
-LastEditTime: 2021-07-18 23:25:30
+LastEditTime: 2021-07-22 10:16:30
 Description: 网易大神-光遇每日任务爬虫
 '''
 from log import log
@@ -107,28 +107,35 @@ class SkyTask(object):
         return name
 
     def writeDoc(self, md: str, html: str, title: str):
-        '''写文件 传入md,html字符串和标题,返回md文件的位置'''
+        '''写文件 传入md,html字符串和标题,返回md文件的位置和处理后html内容'''
 
         # 构造文件名
         strtime = time.strftime("%Y-%m-%d")
         file_name = "%s %s" % (strtime, self.checkNameValid(title))
+        md = f"# {title}\n{md}" # 为md文件加标题
+        html = f"<h1>{title}</h1>{html}" # 为 html 添加标题
 
         # 重名处理
         if os.path.exists(os.path.join("html", "%s.html" % (file_name))):
             file_name = "%s[%s]" % (file_name, random.randint(0, 9999))
 
-            # 写文件
-        self.makedir()
+        # 写文件
+        self.makedir() # 建目录
+        
+        # 在 html 目录中写文件
         with open(os.path.join("html", "%s.html" % (file_name)), "w", encoding="utf8") as h:
-            html = f"<h1>{title}</h1>{html}"
             h.write(html)
+
+        # 在 markdown 目录中写文件
         with open(os.path.join("markdown", "%s.md" % (file_name)), "w", encoding="utf8") as m:
-            md = f"# {title}\n{md}"  # 为md文件加标题
             m.write(md)
         
+        # 在 reademe.md 中写文件
+        with open("README.md", "w", encoding="utf8") as mm:
+            mm.write(md)
 
         log.logger.info(f"{file_name} 保存成功!")
-        return md, os.path.join("markdown", "%s.md" % (file_name)), html
+        return os.path.join("markdown", "%s.md" % (file_name)), html
 
     def parseArticle(self, htmlData):
         '''

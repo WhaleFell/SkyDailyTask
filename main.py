@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-18 11:18:44
-LastEditTime: 2021-07-22 01:20:58
+LastEditTime: 2021-07-22 10:11:33
 Description: 主运行模块
 '''
 from types import MemberDescriptorType
@@ -75,17 +75,12 @@ def main():
         # 处理
         html, md = spider.parseArticle(html)
 
-        # 写自述文件
-        with open("README.md", "w", encoding="utf8") as mm:
-            md = f"# {title}\n{md}"  # 为md文件加标题
-            mm.write(md)
-
         # 入库
         if writeSQL(title, url, html):
             count += 1
             # 写入文件
-            md, md_path, htmlAdd = spider.writeDoc(md, html, title)
-            mail.send_emails(htmlAdd, fileList=[md_path, "run.log"]) # 支持多邮箱发送.
+            md_path, html_content = spider.writeDoc(md, html, title)
+            mail.send_emails(html_content, fileList=[md_path, "run.log"]) # 支持多邮箱发送.
 
     log.logger.info(f"处理完成! 新数据条数:{count}")
 
