@@ -1,0 +1,21 @@
+2021-07-22 17:34:06,968 - main.py [line:53] - INFO: 爬取开始ing......
+2021-07-22 17:34:08,896 - main.py [line:63] - INFO: 共获取到9条链接.
+2021-07-22 17:34:10,668 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60efb67e4ebd8e0b6bfac6ca/插入成功！
+2021-07-22 17:34:10,669 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-07-22 光遇7.15复刻攻略 保存成功!
+2021-07-22 17:34:12,453 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f060823408360001178095/插入成功！
+2021-07-22 17:34:12,454 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-07-22 光遇小助理每日攻略 保存成功!
+2021-07-22 17:34:14,258 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f1bed5c3e1e500016bebd9/插入成功！
+2021-07-22 17:34:14,259 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-07-22 光遇小助手每日攻略 保存成功!
+2021-07-22 17:34:16,025 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f30f75849ee20001575aaf/插入成功！
+2021-07-22 17:34:16,027 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-07-22 光遇小助理每日攻略[4476] 保存成功!
+2021-07-22 17:34:17,816 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f452ddc3e1e500016db13c/插入成功！
+2021-07-22 17:34:17,816 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-07-22 光遇小助理每日攻略[7821] 保存成功!
+2021-07-22 17:34:19,493 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f5ab5c849ee200017725bf/插入成功！
+2021-07-22 17:34:19,494 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-07-22 光遇小助理每日攻略[2233] 保存成功!
+2021-07-22 17:34:21,431 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f6f837c5a3250001f58ec1/插入成功！
+2021-07-22 17:34:21,431 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-07-22 光遇小王子季攻略 保存成功!
+2021-07-22 17:34:23,228 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f7050ac3e1e50001555d82/插入成功！
+2021-07-22 17:34:23,229 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-07-22 光遇小助理每日攻略[3337] 保存成功!
+2021-07-22 17:34:24,823 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/60f851b3c5a3250001f6916d/插入成功！
+2021-07-22 17:34:24,824 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-07-22 光遇小助理每日攻略[2921] 保存成功!
+2021-07-22 17:34:24,824 - main.py [line:85] - INFO: 处理完成! 新数据条数:9
