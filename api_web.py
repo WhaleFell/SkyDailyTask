@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-15 22:17:41
-LastEditTime: 2021-07-22 10:16:30
+LastEditTime: 2021-07-22 17:27:31
 Description: 网易大神-光遇每日任务爬虫
 '''
 from log import log
@@ -106,22 +106,36 @@ class SkyTask(object):
                 name = name.replace(nv, "_")
         return name
 
+    def docs_exist(self, file_name):
+        '''TODO: 文件重名自适应,递归,'''
+        if os.path.exists(os.path.join("html", "%s.html" % (file_name))):
+            pass
+
     def writeDoc(self, md: str, html: str, title: str):
         '''写文件 传入md,html字符串和标题,返回md文件的位置和处理后html内容'''
+        MDheader = '''---
+title: %s
+date: %s
+categories: Sky光•遇
+tags: [Sky光•遇,%s]
+description: 
+index_img: https://ok.166.net/reunionpub/ds/kol/20210722/001554-k2u90bj7ay.png?imageView&thumbnail=600x0&type=jpg
+banner_img: https://ok.166.net/reunionpub/ds/kol/20210722/001554-k2u90bj7ay.png?imageView&thumbnail=600x0&type=jpg
+---''' % (title, time.strftime("%Y-%m-%d %H:%M:%S"), title)
 
         # 构造文件名
         strtime = time.strftime("%Y-%m-%d")
         file_name = "%s %s" % (strtime, self.checkNameValid(title))
-        md = f"# {title}\n{md}" # 为md文件加标题
-        html = f"<h1>{title}</h1>{html}" # 为 html 添加标题
+        md = f"{MDheader}\n# {title}\n{md}"  # 为md文件加标题和博客头
+        html = f"<h1>{title}</h1>{html}"  # 为 html 添加标题
 
         # 重名处理
         if os.path.exists(os.path.join("html", "%s.html" % (file_name))):
             file_name = "%s[%s]" % (file_name, random.randint(0, 9999))
 
         # 写文件
-        self.makedir() # 建目录
-        
+        self.makedir()  # 建目录
+
         # 在 html 目录中写文件
         with open(os.path.join("html", "%s.html" % (file_name)), "w", encoding="utf8") as h:
             h.write(html)
@@ -129,7 +143,7 @@ class SkyTask(object):
         # 在 markdown 目录中写文件
         with open(os.path.join("markdown", "%s.md" % (file_name)), "w", encoding="utf8") as m:
             m.write(md)
-        
+
         # 在 reademe.md 中写文件
         with open("README.md", "w", encoding="utf8") as mm:
             mm.write(md)
@@ -143,7 +157,6 @@ class SkyTask(object):
         并保存处理后的HTML MD文件
         '''
 
-        # self.makedir()
         html = self.disposeHTML(htmlData)
         md = html2text.html2text(html)
 
@@ -152,3 +165,4 @@ class SkyTask(object):
 
 if __name__ == "__main__":
     sky = SkyTask()
+    # sky.writeDoc("# 测试", "<h1>测试</h1>", "1")
