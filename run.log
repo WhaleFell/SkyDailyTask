@@ -565,3 +565,6 @@
 2021-08-05 00:59:03,470 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
 2021-08-05 00:59:13,481 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
 2021-08-05 00:59:18,486 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
+2021-08-05 02:47:49,519 - main.py [line:53] - INFO: 爬取开始ing......
+2021-08-05 02:47:51,645 - main.py [line:63] - INFO: 共获取到8条链接.
+2021-08-05 02:48:05,655 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
