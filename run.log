@@ -1926,3 +1926,6 @@
 2021-09-09 12:45:00,069 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:90] - WARNING: whalefall9420@qq.com发信未知失败: _ssl.c:1074: The handshake operation timed out
 2021-09-09 12:45:12,245 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
 2021-09-09 12:45:17,249 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
+2021-09-09 14:39:22,703 - main.py [line:53] - INFO: 爬取开始ing......
+2021-09-09 14:39:24,513 - main.py [line:63] - INFO: 共获取到9条链接.
+2021-09-09 14:39:36,014 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
