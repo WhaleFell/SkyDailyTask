@@ -1919,3 +1919,10 @@
 2021-09-09 10:41:24,382 - main.py [line:53] - INFO: 爬取开始ing......
 2021-09-09 10:41:26,413 - main.py [line:63] - INFO: 共获取到9条链接.
 2021-09-09 10:41:42,555 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2021-09-09 12:43:39,907 - main.py [line:53] - INFO: 爬取开始ing......
+2021-09-09 12:43:41,847 - main.py [line:63] - INFO: 共获取到9条链接.
+2021-09-09 12:43:57,545 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/61397769c3e1e5000111a1fa/插入成功！
+2021-09-09 12:43:57,547 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-09-09 光遇09.09复刻攻略 保存成功!
+2021-09-09 12:45:00,069 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:90] - WARNING: whalefall9420@qq.com发信未知失败: _ssl.c:1074: The handshake operation timed out
+2021-09-09 12:45:12,245 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
+2021-09-09 12:45:17,249 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
