@@ -3836,3 +3836,6 @@
 2021-10-26 14:42:57,613 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:48] - WARNING: 解析文章链接错误! ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 2021-10-26 14:42:59,812 - main.py [line:63] - INFO: 共获取到8条链接.
 2021-10-26 14:43:14,915 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2021-10-26 16:36:33,760 - main.py [line:53] - INFO: 爬取开始ing......
+2021-10-26 16:36:35,602 - main.py [line:63] - INFO: 共获取到8条链接.
+2021-10-26 16:36:46,684 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
