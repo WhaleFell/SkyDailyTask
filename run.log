@@ -4255,3 +4255,10 @@
 2021-11-06 00:52:38,527 - main.py [line:53] - INFO: 爬取开始ing......
 2021-11-06 00:52:41,432 - main.py [line:63] - INFO: 共获取到8条链接.
 2021-11-06 00:53:19,003 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2021-11-06 02:37:24,539 - main.py [line:53] - INFO: 爬取开始ing......
+2021-11-06 02:37:26,803 - main.py [line:63] - INFO: 共获取到8条链接.
+2021-11-06 02:37:49,091 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/61856d8ac3e1e50001191f99/插入成功！
+2021-11-06 02:37:49,093 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-11-06 光遇小助理每日攻略 保存成功!
+2021-11-06 02:38:17,705 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:90] - WARNING: whalefall9420@qq.com发信未知失败: (554, b'DT:SPM 163 smtp1,GdxpCgBHCyYBeoVhI5zhJg--.5848S2 1636137497,please see http://mail.163.com/help/help_spam_16.htm?ip=40.80.151.79&hostid=smtp1&time=1636137497')
+2021-11-06 02:38:45,810 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:90] - WARNING: whalefall9420@outlook.com发信未知失败: (554, b'DT:SPM 163 smtp1,GdxpCgA3uiQheoVheKbhJg--.5698S2 1636137525,please see http://mail.163.com/help/help_spam_16.htm?ip=40.80.151.79&hostid=smtp1&time=1636137525')
+2021-11-06 02:38:50,816 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
