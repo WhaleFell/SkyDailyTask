@@ -5060,3 +5060,10 @@
 2021-11-26 00:53:13,057 - main.py [line:53] - INFO: 爬取开始ing......
 2021-11-26 00:53:14,916 - main.py [line:63] - INFO: 共获取到9条链接.
 2021-11-26 00:53:27,636 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2021-11-26 02:37:34,580 - main.py [line:53] - INFO: 爬取开始ing......
+2021-11-26 02:37:36,711 - main.py [line:63] - INFO: 共获取到8条链接.
+2021-11-26 02:37:49,347 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/619fc4f2c3e1e5000180a348/插入成功！
+2021-11-26 02:37:49,349 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2021-11-26 光遇小助理每日攻略 保存成功!
+2021-11-26 02:37:54,532 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2021-11-26 02:38:04,621 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
+2021-11-26 02:38:09,626 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
