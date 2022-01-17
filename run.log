@@ -7170,3 +7170,7 @@
 2022-01-17 14:42:14,519 - main.py [line:53] - INFO: 爬取开始ing......
 2022-01-17 14:42:15,996 - main.py [line:63] - INFO: 共获取到8条链接.
 2022-01-17 14:42:27,543 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2022-01-17 16:41:13,076 - main.py [line:53] - INFO: 爬取开始ing......
+2022-01-17 16:41:14,617 - main.py [line:63] - INFO: 共获取到8条链接.
+2022-01-17 16:41:21,024 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/61e04fa8c5a3250001555f00/解析失败! list index out of range
+2022-01-17 16:41:25,725 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
