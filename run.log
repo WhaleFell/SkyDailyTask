@@ -7510,3 +7510,6 @@
 2022-01-26 00:50:48,875 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
 2022-01-26 00:51:00,543 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
 2022-01-26 00:51:05,549 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
+2022-01-26 02:36:20,678 - main.py [line:53] - INFO: 爬取开始ing......
+2022-01-26 02:36:22,640 - main.py [line:63] - INFO: 共获取到8条链接.
+2022-01-26 02:36:36,688 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
