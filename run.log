@@ -8271,3 +8271,22 @@
 2022-02-13 22:27:06,077 - main.py [line:53] - INFO: 爬取开始ing......
 2022-02-13 22:27:07,489 - main.py [line:63] - INFO: 共获取到9条链接.
 2022-02-13 22:27:21,088 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2022-02-14 00:45:45,706 - main.py [line:53] - INFO: 爬取开始ing......
+2022-02-14 00:45:47,629 - main.py [line:63] - INFO: 共获取到9条链接.
+2022-02-14 00:45:48,573 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/6200743d7442470001787678/解析失败! list index out of range
+2022-02-14 00:45:49,530 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/6200743d7442470001787678/解析失败! list index out of range
+2022-02-14 00:45:53,659 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/62029639c3e1e50001452700/解析失败! list index out of range
+2022-02-14 00:45:54,566 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/62029639c3e1e50001452700/解析失败! list index out of range
+2022-02-14 00:45:58,553 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/62049c0c0c8dc6000177f6aa/解析失败! list index out of range
+2022-02-14 00:45:59,452 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/62049c0c0c8dc6000177f6aa/解析失败! list index out of range
+2022-02-14 00:46:00,485 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/62049c0c0c8dc6000177f6aa/解析失败! list index out of range
+2022-02-14 00:46:02,938 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/62053b21c3e1e5000146e411/解析失败! list index out of range
+2022-02-14 00:46:05,534 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/620689d1849ee20001e58f77/解析失败! list index out of range
+2022-02-14 00:46:06,397 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/620689d1849ee20001e58f77/解析失败! list index out of range
+2022-02-14 00:46:08,691 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/6207df1c3408360001e61e9d/解析失败! list index out of range
+2022-02-14 00:46:09,565 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/6207df1c3408360001e61e9d/解析失败! list index out of range
+2022-02-14 00:46:12,732 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/62092ee93408360001e703f5/插入成功！
+2022-02-14 00:46:12,733 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2022-02-14 光遇小助理每日攻略 保存成功!
+2022-02-14 00:46:20,705 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2022-02-14 00:46:31,743 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
+2022-02-14 00:46:36,749 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
