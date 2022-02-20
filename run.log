@@ -8596,3 +8596,8 @@
 2022-02-20 16:33:41,472 - main.py [line:53] - INFO: 爬取开始ing......
 2022-02-20 16:33:44,125 - main.py [line:63] - INFO: 共获取到9条链接.
 2022-02-20 16:34:10,678 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2022-02-20 18:32:11,909 - main.py [line:53] - INFO: 爬取开始ing......
+2022-02-20 18:32:13,426 - main.py [line:63] - INFO: 共获取到9条链接.
+2022-02-20 18:32:48,956 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/620e8440849ee20001b90d25/解析失败! list index out of range
+2022-02-20 18:32:55,269 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/621124ea849ee20001ba7722/解析失败! list index out of range
+2022-02-20 18:32:56,599 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
