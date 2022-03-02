@@ -9107,3 +9107,10 @@
 2022-03-02 22:29:45,412 - main.py [line:53] - INFO: 爬取开始ing......
 2022-03-02 22:29:46,818 - main.py [line:63] - INFO: 共获取到9条链接.
 2022-03-02 22:29:59,933 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2022-03-03 00:47:35,436 - main.py [line:53] - INFO: 爬取开始ing......
+2022-03-03 00:47:37,092 - main.py [line:63] - INFO: 共获取到9条链接.
+2022-03-03 00:47:49,207 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/621f9affc3e1e50001fd3d2e/插入成功！
+2022-03-03 00:47:49,208 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2022-03-03 光遇小助理每日攻略 保存成功!
+2022-03-03 00:47:55,285 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2022-03-03 00:48:04,839 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
+2022-03-03 00:48:09,845 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
