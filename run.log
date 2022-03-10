@@ -9447,3 +9447,11 @@
 2022-03-10 22:29:07,226 - main.py [line:53] - INFO: 爬取开始ing......
 2022-03-10 22:29:08,669 - main.py [line:63] - INFO: 共获取到9条链接.
 2022-03-10 22:29:21,938 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2022-03-11 00:48:25,695 - main.py [line:53] - INFO: 爬取开始ing......
+2022-03-11 00:48:27,197 - main.py [line:63] - INFO: 共获取到9条链接.
+2022-03-11 00:48:43,005 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/6220e89bc5a32500015918a9/解析失败! list index out of range
+2022-03-11 00:48:56,146 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/622a267d0c8dc6000157c9f2/插入成功！
+2022-03-11 00:48:56,146 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2022-03-11 光遇小助理每日攻略 保存成功!
+2022-03-11 00:49:01,926 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2022-03-11 00:49:11,532 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
+2022-03-11 00:49:16,537 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
