@@ -9696,3 +9696,15 @@
 2022-03-16 22:29:26,929 - main.py [line:53] - INFO: 爬取开始ing......
 2022-03-16 22:29:28,752 - main.py [line:63] - INFO: 共获取到9条链接.
 2022-03-16 22:29:44,261 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2022-03-17 00:47:48,481 - main.py [line:53] - INFO: 爬取开始ing......
+2022-03-17 00:47:51,040 - main.py [line:63] - INFO: 共获取到9条链接.
+2022-03-17 00:47:51,796 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/6228d1f30c8dc600014ba080/解析失败! list index out of range
+2022-03-17 00:47:57,324 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/622a267d0c8dc6000157c9f2/解析失败! list index out of range
+2022-03-17 00:48:00,343 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/622b82c4340836000185277a/解析失败! list index out of range
+2022-03-17 00:48:05,467 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/622f6c8b0c8dc60001a3d573/解析失败! list index out of range
+2022-03-17 00:48:06,194 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/622f6c8b0c8dc60001a3d573/解析失败! list index out of range
+2022-03-17 00:48:10,151 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/62320c5d74424700019046d9/插入成功！
+2022-03-17 00:48:10,152 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2022-03-17 光遇小助理每日攻略 保存成功!
+2022-03-17 00:48:15,478 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2022-03-17 00:48:25,042 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
+2022-03-17 00:48:30,044 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
