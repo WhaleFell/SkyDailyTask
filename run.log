@@ -10227,3 +10227,6 @@
 2022-03-29 14:40:21,746 - main.py [line:63] - INFO: 共获取到9条链接.
 2022-03-29 14:40:22,442 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/6238a33dc5a325000129c66b/解析失败! list index out of range
 2022-03-29 14:40:40,101 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
+2022-03-29 16:37:36,711 - main.py [line:53] - INFO: 爬取开始ing......
+2022-03-29 16:37:38,297 - main.py [line:63] - INFO: 共获取到9条链接.
+2022-03-29 16:37:50,355 - main.py [line:85] - INFO: 处理完成! 新数据条数:0
