@@ -140,8 +140,8 @@ banner_img: https://ok.166.net/reunionpub/ds/kol/20210722/001554-k2u90bj7ay.png?
         with open(os.path.join("html", "%s.html" % (file_name)), "w", encoding="utf8") as h:
             h.write(html)
 
-        # 在 markdown 目录中写文件
-        with open(os.path.join("markdown", "%s.md" % (file_name)), "w", encoding="utf8") as m:
+        # 在 docs 目录中写文件
+        with open(os.path.join("docs", "%s.md" % (file_name)), "w", encoding="utf8") as m:
             m.write(md)
 
         # 在 reademe.md 中写文件
@@ -149,7 +149,7 @@ banner_img: https://ok.166.net/reunionpub/ds/kol/20210722/001554-k2u90bj7ay.png?
             mm.write(md)
 
         log.logger.info(f"{file_name} 保存成功!")
-        return os.path.join("markdown", "%s.md" % (file_name)), html
+        return os.path.join("docs", "%s.md" % (file_name)), html
 
     def parseArticle(self, htmlData):
         '''
