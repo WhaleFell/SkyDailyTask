@@ -10306,3 +10306,16 @@
 2022-04-02 09:57:31,013 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:90] - WARNING: whalefall9420@qq.com发信未知失败: (535, b'Error: authentication failed')
 2022-04-02 09:57:41,316 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
 2022-04-02 09:57:46,321 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
+2022-04-03 09:58:16,473 - main.py [line:53] - INFO: 爬取开始ing......
+2022-04-03 09:58:18,077 - main.py [line:63] - INFO: 共获取到9条链接.
+2022-04-03 09:58:29,280 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/6245d6140c8dc600015fd684/解析失败! list index out of range
+2022-04-03 09:58:30,149 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/6245d6140c8dc600015fd684/解析失败! list index out of range
+2022-04-03 09:58:40,863 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/624733e30c8dc60001608661/解析失败! list index out of range
+2022-04-03 09:58:41,698 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/624733e30c8dc60001608661/解析失败! list index out of range
+2022-04-03 09:58:52,506 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/62488419849ee20001742785/解析失败! list index out of range
+2022-04-03 09:58:53,333 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:63] - WARNING: https://m.ds.163.com/article/62488419849ee20001742785/解析失败! list index out of range
+2022-04-03 09:58:54,966 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/62488419849ee20001742785/插入成功！
+2022-04-03 09:58:54,967 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2022-04-03 光遇小助理每日攻略 保存成功!
+2022-04-03 09:59:01,915 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2022-04-03 09:59:12,651 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
+2022-04-03 09:59:17,657 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
