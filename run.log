@@ -10708,3 +10708,10 @@
 2022-05-24 10:22:11,409 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
 2022-05-24 10:22:23,548 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
 2022-05-24 10:22:28,554 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
+2022-05-25 10:22:22,460 - main.py [line:53] - INFO: 爬取开始ing......
+2022-05-25 10:22:24,354 - main.py [line:63] - INFO: 共获取到9条链接.
+2022-05-25 10:22:46,115 - main.py [line:47] - INFO: 发现新数据https://m.ds.163.com/article/628d02d43408360001c4a2df/插入成功！
+2022-05-25 10:22:46,116 - /home/runner/work/SkyDailyTask/SkyDailyTask/api_web.py [line:151] - INFO: 2022-05-25 光遇小助理每日攻略 保存成功!
+2022-05-25 10:22:54,392 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@qq.com邮件推送成功!
+2022-05-25 10:23:07,254 - /home/runner/work/SkyDailyTask/SkyDailyTask/email_service.py [line:86] - INFO: whalefall9420@outlook.com邮件推送成功!
+2022-05-25 10:23:12,255 - main.py [line:85] - INFO: 处理完成! 新数据条数:1
